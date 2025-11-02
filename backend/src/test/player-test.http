@@ -1,0 +1,14 @@
+### GET all players
+GET http://localhost:8080/api/player
+
+### Get player by id
+GET http://localhost:8080/api/player/2
+
+### Create a new player
+POST http://localhost:8080/api/player
+Content-Type: application/json
+
+{
+  "name": "Doug"
+}
+
