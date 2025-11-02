@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: IdleGatherer
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/gatherer_db
+    username: dev
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+    show-sql: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
