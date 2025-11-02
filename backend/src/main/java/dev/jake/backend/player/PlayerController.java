@@ -13,6 +13,7 @@ import java.util.NoSuchElementException;
 
 @RestController
 @RequestMapping("/api/player")
+@CrossOrigin
 public class PlayerController {
 
     private final PlayerService playerService;
