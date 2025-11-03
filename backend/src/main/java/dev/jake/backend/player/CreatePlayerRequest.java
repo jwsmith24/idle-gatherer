@@ -1,4 +1,4 @@
-package dev.jake.backend.player.dtos;
+package dev.jake.backend.player;
 
 import jakarta.validation.constraints.NotBlank;
 

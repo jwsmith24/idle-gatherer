@@ -1,8 +1,6 @@
 package dev.jake.backend.player;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.jake.backend.player.dtos.CreatePlayerRequest;
-import dev.jake.backend.player.dtos.PlayerDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -147,5 +145,6 @@ class PlayerControllerTest {
         }
 
     }
+
 
 }

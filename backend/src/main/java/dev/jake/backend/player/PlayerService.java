@@ -1,6 +1,6 @@
 package dev.jake.backend.player;
 
-import dev.jake.backend.player.dtos.CreatePlayerRequest;
+import dev.jake.backend.player.skill.Skill;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -24,7 +24,6 @@ public class PlayerService {
 
     public Player createPlayer(CreatePlayerRequest request) {
         Player player = Player.builder().name(request.name()).build();
-
         return playerRepo.save(player);
     }
 }

@@ -1,7 +1,5 @@
 package dev.jake.backend.player;
 
-import dev.jake.backend.player.dtos.CreatePlayerRequest;
-import dev.jake.backend.player.dtos.PlayerDto;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

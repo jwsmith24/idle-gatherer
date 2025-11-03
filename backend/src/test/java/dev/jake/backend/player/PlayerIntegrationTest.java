@@ -1,8 +1,6 @@
 package dev.jake.backend.player;
 
 import dev.jake.backend.BaseIntegrationTest;
-import dev.jake.backend.player.dtos.CreatePlayerRequest;
-import dev.jake.backend.player.dtos.PlayerDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

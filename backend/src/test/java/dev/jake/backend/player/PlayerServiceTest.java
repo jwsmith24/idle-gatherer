@@ -1,6 +1,5 @@
 package dev.jake.backend.player;
 
-import dev.jake.backend.player.dtos.CreatePlayerRequest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

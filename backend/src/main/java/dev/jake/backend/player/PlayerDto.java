@@ -1,4 +1,4 @@
-package dev.jake.backend.player.dtos;
+package dev.jake.backend.player;
 
 public record PlayerDto(
         Integer id,
