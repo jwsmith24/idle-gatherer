@@ -3,7 +3,7 @@ spring:
     name: IdleGatherer
 
   datasource:
-    url: jdbc:postgresql://localhost:5433/gatherer_db
+    url: jdbc:postgresql://localhost:5443/gatherer_db
     username: dev
     password: root
 
